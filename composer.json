@@ -1,0 +1,25 @@
+{
+    "name": "azophy/doc-pdf",
+    "require": {
+        "phpoffice/phpword": "^1.1",
+        "dompdf/dompdf": "^2.0",
+        "gotenberg/gotenberg-php": "^1.18",
+        "php-http/guzzle7-adapter": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Azophy\\DocPdf\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Abdurrahman Shofy Adianto",
+            "email": "azophy@gmail.com"
+        }
+    ],
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
+}
